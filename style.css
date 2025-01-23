@@ -137,10 +137,20 @@ ul li {
     margin: 9px;
 }
 
+ul li:hover {
+    background-color: var(--green);
+    transition: background-color 0.2s;
+}
+
 ul li a {
     text-decoration: none;
     color: white;
     font-family: 'Inter', serif;
     font-weight: 600;
     font-size: 14px;
+}
+
+ul li:hover a {
+    color: var(--grey-900);
+    transition: color 0.2s;
 }
